@@ -18,7 +18,7 @@ const App: React.FC = () => {
   }, [currentDayIndex]);
 
   return (
-    <div className="flex flex-col h-screen bg-[#FAFAF5] text-gray-800 font-sans max-w-md mx-auto shadow-2xl overflow-hidden relative">
+    <div className="flex flex-col h-[100dvh] bg-[#FAFAF5] text-gray-800 font-sans max-w-md mx-auto shadow-2xl overflow-hidden relative">
       
       {/* Scrollable Content Area */}
       <div ref={scrollRef} className="flex-1 overflow-y-auto no-scrollbar pb-24 scroll-smooth">
